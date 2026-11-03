@@ -26,7 +26,7 @@ document.getElementById("projectsGrid").innerHTML = PROJECTS.map((p) => {
       <span class="badge badge--${statusClass[p.status] || "planned"}">${esc(p.status)}</span>
     </div>
     <p>${esc(p.description)}</p>
-    <ul class="tags mono">${p.tags.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+    ${p.tags && p.tags.length ? `<ul class="tags mono">${p.tags.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
     ${links ? `<div class="project__links">${links}</div>` : ""}
   </article>`;
 }).join("");

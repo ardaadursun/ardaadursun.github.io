@@ -22,15 +22,9 @@ const PROJECTS = [
     repo: "https://github.com/ardaadursun/ardaadursun.github.io",
   },
   {
-    title: "PowerShell-Toolkit",
-    description: "Skripte zur Automatisierung wiederkehrender Admin-Aufgaben wie Benutzerverwaltung und Fehlerdiagnose.",
-    tags: ["PowerShell", "Active Directory"],
-    status: "geplant",
-  },
-  {
-    title: "Datenbank- & Analyse-Projekt",
-    description: "Ein relationales Datenmodell mit SQL-Auswertungen und Visualisierung der Ergebnisse.",
-    tags: ["SQL", "Python", "BI"],
+    title: "Weitere Projekte folgen",
+    description: "Neue Projekte sind in Vorbereitung – schau gerne bald wieder vorbei.",
+    tags: [],
     status: "geplant",
   },
 ];
